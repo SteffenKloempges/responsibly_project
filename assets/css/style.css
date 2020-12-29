@@ -54,36 +54,6 @@ main p{
 main a{
     display: block;
 }
-main section:first-child p{
-    color: black;
-}
-main section:first-child{
-    padding-left: 50px;
-    border-bottom: 1px solid #ccc;
-}
-main section:first-child ul{
-    list-style: none;
-    padding-top: 100px;
-    padding-left: 150px;
-}
-main section:first-child ul:nth-of-type(2){
-    list-style: none;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-main section:first-child ul li{
-    display: inline;
-    padding: 20px;
-}
-main ul li{
-    display: block;
-    width: 320px;
-    height: 232px;
-    border-top: 1px solid black;
-}
-main ul li:hover{
-    text-shadow: 1px 1px #666;
-}
 main h2{
     margin: 0;
     margin-top: 50px;
@@ -94,6 +64,30 @@ main h4{
     padding-left: 50px;
     font-size: 24px;
 }
+/* ==== Styling Main Section 1==== */
+main section:first-child p{
+    color: black;
+    margin-bottom: 50px;
+}
+main section:first-child{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+main div{
+    margin: 0 auto;
+    width: 70%;
+}
+main div img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+main div img:hover{
+    -moz-box-shadow: 0 0 5px rgba(102,102,102, .8);
+    -webkit-box-shadow: 0 0 5px rgba(102,102,102, .8);
+    box-shadow: 0px 0px 5px rgba(102,102,102, .8);
+}
+/* ==== Styling Main Section 2==== */
 main section:nth-of-type(2){
     display: inline-block;
     margin: 0;
@@ -101,6 +95,7 @@ main section:nth-of-type(2){
     margin-left: 150px;
     text-align: center;
 }
+/* ==== Styling Main Section 3==== */
 main section:nth-of-type(3){
     display: inline-block;
     margin: 0;
@@ -108,6 +103,7 @@ main section:nth-of-type(3){
     margin-left: 40%;
     text-align: center;
 }
+/* ==== Styling Main Section 4==== */
 main section:nth-of-type(4){
     display: inline-block;
     margin: 0;
@@ -115,6 +111,7 @@ main section:nth-of-type(4){
     margin-left: 150px;
     text-align: center;
 }
+/* ==== Styling Main Section 5==== */
 main section:nth-of-type(5){
     display: inline-block;
     margin: 0;
