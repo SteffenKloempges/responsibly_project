@@ -51,6 +51,9 @@ main section{
 main p{
     color: #666;
 }
+main a{
+    display: block;
+}
 main section:first-child p{
     color: black;
 }
@@ -71,6 +74,15 @@ main section:first-child ul:nth-of-type(2){
 main section:first-child ul li{
     display: inline;
     padding: 20px;
+}
+main ul li{
+    display: block;
+    width: 320px;
+    height: 232px;
+    border-top: 1px solid black;
+}
+main ul li:hover{
+    text-shadow: 1px 1px #666;
 }
 main h2{
     margin: 0;
